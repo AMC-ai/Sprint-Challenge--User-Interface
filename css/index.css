@@ -75,9 +75,9 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    /* border: 1px solid blue; */
-    align-items: center;
     align-content: center;
+    margin-bottom: 20px;
+    align-items: flex-end;
 }
 
 header nav {
@@ -85,13 +85,13 @@ header nav {
     justify-content: space-between;
     width: 691px;
     margin-top: 35px;
-    /* border: 1px solid green; */
-    align-items: center;
+    align-items: flex-end;
     align-content: center;
     }
 
 header .logo {
      margin-top: 25px;
+     margin-right: 25px;
 }
 
 .header-img{
@@ -100,7 +100,17 @@ header .logo {
 
   }
 
-.top-content {
+.top-header{
+    border-bottom: 1px dashed black;
+    margin-bottom: 25px;
+}
+
+  .top-header-content{
+      margin-bottom: 25px;
+      
+  }
+
+  .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
