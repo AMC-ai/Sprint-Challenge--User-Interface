@@ -99,14 +99,14 @@ header .logo {
     margin-bottom: 20px;
 
   }
-
+/* top content for about page */
 .top-header{
     border-bottom: 1px dashed black;
-    margin-bottom: 25px;
-}
+    width: 100%;
+    }
 
   .top-header-content{
-      margin-bottom: 25px;
+      margin: 25px;
       
   }
 
@@ -125,14 +125,47 @@ header .logo {
 }
 
 /* about page middle-row CSS */
-.row1{
+
+.middle-rows{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  }
+
+.row1, .row2{ 
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
-.row1a .row1b{
+
+.row1a, .row1b, .row2a, .row2b{
     display: flex;
     flex-direction: column;
-}
+    margin:20px;
+    border-bottom: 1px dashed black;
+    padding: 40px;
+    padding-left: 0;
+    padding-right: 0;
+    justify-content: center;
+ }
+
+ .img-about{
+   margin-bottom: 10px;
+   width: 100%;
+ }
+
+ .button-about{
+   display: flex;
+   align-items: flex-start;
+   background: white;
+   vertical-align: top;
+   margin-top: 15px;
+   padding: 8px 44px;
+   font-size: 15px;
+   border: 2px solid black;
+   cursor: pointer;
+   border-radius: 10px;
+   }
 
 .middle-content {
     margin-bottom: 20px;
@@ -213,6 +246,13 @@ header .logo {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+/* about page footer content */
+
+.bottom-footer-content{
+  display: flex;
+  margin: 25px;
 }
 
 footer {
