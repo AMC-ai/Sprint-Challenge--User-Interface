@@ -71,6 +71,35 @@ p {
     margin: 0 auto;
 }
 
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* border: 1px solid blue; */
+    align-items: center;
+    align-content: center;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    width: 691px;
+    margin-top: 35px;
+    /* border: 1px solid green; */
+    align-items: center;
+    align-content: center;
+    }
+
+header .logo {
+     margin-top: 25px;
+}
+
+.header-img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+  }
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -111,6 +140,46 @@ p {
     align-items: center;
     justify-content: center;
 }
+
+.boxes #box1{
+    background-color: teal;
+  }
+
+  .boxes #box2{
+    background-color: gold;
+  }
+
+  .boxes #box3{
+    background-color: cadetblue;
+  }
+
+  .boxes #box4{
+    background-color: coral;
+  }
+
+  .boxes #box5{
+    background-color: crimson;
+  }
+
+  .boxes #box6{
+    background-color: forestgreen;
+  }
+
+  .boxes #box7{
+    background-color: darkorchid;
+  }
+
+  .boxes #box8{
+    background-color: hotpink;
+  }
+
+  .boxes #box9{
+    background-color: indigo;
+  }
+
+  .boxes #box10{
+    background-color: dodgerblue;
+  }
 
 .bottom-content {
     display: flex;
